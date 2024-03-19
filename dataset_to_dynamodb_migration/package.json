@@ -9,7 +9,7 @@
     "node": "16.19.0"
   },
   "scripts": {
-    "start": "node index.js \"./output/Final_Alltrails.csv\" \"./output/trailsdataset.json\"",
+    "start": "node index.js \"./output/cleaned_alltrails.csv\" \"./output/trailsdataset.json\"",
     "lint": "eslint . --ext .js",
     "format": "eslint . --ext .js --fix"
   },
