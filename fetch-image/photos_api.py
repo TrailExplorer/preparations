@@ -8,7 +8,7 @@ import googlemaps
 from PIL import Image
 import json
 # Define the API Key.
-API_KEY = 'get your own key'
+API_KEY = 'Get your own key'
 
 # Define the Client
 gmaps = googlemaps.Client(key = API_KEY)
@@ -52,9 +52,10 @@ def place_search(location):
     #     # we will open the newly saved photo, to display the photo.
     #     im = Image.open('MyDownloadedImage.jpg')
     #     im.show()
+    #print(json.dumps(places_details))
     return places_details
 
 
 
-location='38.38925, -109.86797'
-place_search(location)
+# location='38.38925, -109.86797'
+# place_search(location)
